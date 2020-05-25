@@ -1,0 +1,10 @@
+<H1>{{title}}</H1>
+<ul class="stopwatch">
+    <li><button (click)="start()">Start</button></li>
+    <li>{{display}}</li>
+    <li>{{beschr}}</li>
+    <li>{{("00"+tijdsduur).slice(-2)}}</li>
+    <li><button (click)="stop()">Stop</button></li>
+</ul>
+<p>{{("00"+teller).slice(-2)}}/{{("00"+aantOef).slice(-2)}}</p>
+<p>{{("00"+tijd).slice(-2)}}</p>
